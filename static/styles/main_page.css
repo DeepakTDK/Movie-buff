@@ -1,0 +1,50 @@
+body{
+    background-image: url("back3.png");
+}
+.logo{
+    height: 120px;
+    width: 550px;
+    padding-left: 20px;
+}
+p{
+    padding-left:350px;
+    margin-top:-30px;
+    left: 330px;
+    font-size: 12;
+}
+.header{
+    /*height: 100vh;*/
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    font-family: sans-serif;
+}
+h1{
+    color: black;
+    margin-bottom: 40px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.search{
+    height: 50px;
+    padding: 10px;
+    border:none;
+    border-radius: 25px;
+    outline: none;
+    width: 400px;
+}
+.search-btn{
+    height: 50px;
+    width: 150px;
+    background:yellowgreen;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: black;
+    
+}
+.search-btn:hover{
+    opacity: 0.8;
+}
